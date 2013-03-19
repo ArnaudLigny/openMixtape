@@ -1,7 +1,7 @@
 openMixtape
 ===========
 
-openMixtape is an electronic [Mixtape](http://en.wikipedia.org/wiki/Mixtape), inspired by [Muxtape](http://en.wikipedia.org/wiki/Muxtape).
+openMixtape is an electronic [Mixtape](http://en.wikipedia.org/wiki/Mixtape), inspired by [Muxtape](http://en.wikipedia.org/wiki/Muxtape), powered by [Audio5js](https://github.com/zohararad/audio5js).
 
 [![Compact Cassette](http://upload.wikimedia.org/wikipedia/commons/f/f1/Tdkc60cassette.jpg "Compact Cassette")](http://en.wikipedia.org/wiki/File:Tdkc60cassette.jpg)
 
@@ -19,8 +19,8 @@ Dependencies
 ------------
 
 * [jQuery](https://github.com/jquery/jquery): JavaScript Library ([license](https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt))
-* [audio5js](https://github.com/zohararad/audio5js): HTML5 Audio Compatibility Layer ([license](https://github.com/zohararad/audio5js#license))
-* [hogan.js](https://github.com/twitter/hogan.js): Compiler for the Mustache templating language ([license](https://github.com/twitter/hogan.js/blob/master/LICENSE))
+* [Audio5js](https://github.com/zohararad/audio5js): HTML5 Audio Compatibility Layer ([license](https://github.com/zohararad/audio5js#license))
+* [Hogan.js](https://github.com/twitter/hogan.js): Compiler for the Mustache templating language ([license](https://github.com/twitter/hogan.js/blob/master/LICENSE))
 
 License
 -----------------------------
