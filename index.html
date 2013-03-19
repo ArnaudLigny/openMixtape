@@ -1,0 +1,65 @@
+<!--
+/**
+ * openMixtape
+ * Copyright 2013 Arnaud Ligny
+ * http://opensource.org/licenses/MIT
+ */
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>openMixtape</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width = 640" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/openmixtape.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="banner">
+        <h1>Narno's mixtape</h1>
+        <h2>Let the music play!</h2>
+      </div>
+      <ol class="playlist" id="playlist">
+      <script id="songs-template" type="text/template">
+        {{#songs}}
+        <li class="song">
+          <div class="name">
+            <a href="{{mp3}}" data-src="{{mp3}}"><span class="artist">{{artist}}</span> - <span class="title">{{title}}</span></a>
+          </div>
+          <div class="info">
+            <strong class="duration"></strong><span class="loaded"></span>
+          </div>
+          <div class="clock"></div>
+        </li>
+        {{/songs}}
+      </script>
+      </ol>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/hogan-2.0.0.min.js"></script>
+    <script type="text/javascript" src="js/audio5.min.js"></script>
+    <script>
+      $(function() {
+        $.when(
+          console.log('load settings'),
+          $.getJSON('settings.json', function(data) {
+            $('.banner h1').html(data.title);
+            $('.banner h2').html(data.baseline);
+            $('div.banner').css('background', data.background);
+          }),
+          console.log('load playlist'),
+          $.getJSON('playlist.json', function(data) {
+            console.log('build template');
+            var template = Hogan.compile($('#songs-template').html());
+            var output = template.render(data);
+            $('#playlist').html(output);
+          })
+        // when template (full DOM) is loaded, load openmixtape script
+        ).done(function(){
+          $.getScript('js/openmixtape.js');
+        });
+      });
+	</script>
+    <!--<script type="text/javascript" src="js/openmixtape.js"></script>-->
+  </body>
+</html>

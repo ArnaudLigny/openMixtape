@@ -1,0 +1,70 @@
+/**
+ * openMixtape main CSS, inspired by Muxtape
+ * Copyright 2013 Arnaud Ligny
+ * http://opensource.org/licenses/MIT
+ */
+.green {
+  color: #009400;
+}
+.grey {
+  color: #bbb;
+}
+.wrapper {
+  font: normal 12px helvetica,sans-serif;
+  background: #fff;
+}
+div.banner {
+  padding: 0.5em 0 0.5em 0.8em;
+  background: #25aaff;
+  color: #fff;
+  font-size: 18pt;
+}
+div.banner  h1 {
+  display: inline;
+  font-weight: bold;
+}
+div.banner  h2 {
+  display: inline;
+  font-size: 9pt;
+  margin-left: 0.4em;
+}
+ul.playlist{
+  font: normal 12px helvetica,sans-serif;
+  background: #fff;
+}
+li.song {
+  padding: 1.5em;
+  cursor: pointer;
+  position: relative;
+  min-height: 80px;
+}
+li.song a {
+  text-decoration: none;
+  color: #000;
+}
+li.song div.name {
+  font-size: 36pt;
+  line-height: 40pt;
+}
+li.song div.info {
+  font-size: 14pt;
+  margin-left: 0.2em;
+  line-height: 20pt;
+}
+li.song div.info span.loaded {
+  margin-left: 0.4em;
+  color: #999;
+}
+li.song div.clock {
+  position: absolute;
+  bottom: 0.15em;
+  right: 0.2em;
+  text-align: right;
+  font-size: 62pt;
+}
+li.hover {
+  background: #f3f3f3;
+}
+li.playing {
+  background: #eaeaea;
+}
