@@ -34,6 +34,9 @@
         {{/songs}}
       </script>
       </ol>
+      <div class="footer">
+        Powered by <a href="http://github.narno.com/openMixtape/">openMixtape</a>
+      </div>
     </div>
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="js/hogan-2.0.0.min.js"></script>
@@ -43,10 +46,17 @@
         $.when(
           console.log('load settings'),
           $.getJSON('settings.json', function(data) {
-            $('.banner h1').html(data.title);
-            $('.banner h2').html(data.baseline);
-            $('div.banner').css('background', data.background);
-          }),
+            if (data.title != '') {
+              $('.banner h1').html(data.title);
+            }
+            if (data.baseline != '') {
+              $('.banner h2').html(data.baseline);
+            }
+            if (data.background != '') {
+              $('div.banner').css('background', data.background);
+            }
+          })
+          .error(function() { alert("error in settings file"); }),
           console.log('load playlist'),
           $.getJSON('playlist.json', function(data) {
             console.log('build template');
@@ -54,6 +64,7 @@
             var output = template.render(data);
             $('#playlist').html(output);
           })
+          .error(function() { alert("error in playlist file"); })
         // when template (full DOM) is loaded, load openmixtape script
         ).done(function(){
           $.getScript('js/openmixtape.js');

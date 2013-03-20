@@ -68,3 +68,11 @@ li.hover {
 li.playing {
   background: #eaeaea;
 }
+div.footer {
+  margin: 20px;
+  text-align: right;
+}
+div.footer a {
+  text-decoration: none;
+  color: #005AC8;
+}
