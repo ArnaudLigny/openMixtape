@@ -17,7 +17,7 @@ How to install
 2. Upload the unzipped files (and folders) on your website
 3. Edit settings.json file
 4. Edit playlist.json file
-5. Open http://yourwebsite.com/
+5. Open `http://yourwebsite.com/`
 
 Dependencies
 ------------
