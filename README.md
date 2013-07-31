@@ -5,19 +5,43 @@ openMixtape is an electronic [Mixtape](http://en.wikipedia.org/wiki/Mixtape), in
 
 [![Compact Cassette](http://upload.wikimedia.org/wikipedia/commons/f/f1/Tdkc60cassette.jpg "Compact Cassette")](http://en.wikipedia.org/wiki/File:Tdkc60cassette.jpg)
 
-Proof of Concept
-----------------
-1. [hosted on Google Drive](https://googledrive.com/host/0B6HLp_YaG_4DV2xjWHJqTW1qTTg/index.html)
+
+Examples
+--------
+1. [hosted on Google Drive](https://googledrive.com/host/0B6HLp_YaG_4DV2xjWHJqTW1qTTg/)
 2. [hosted on Dropbox](https://dl-web.dropbox.com/spa/4f651hzlgq63emq/openMixtape/public/index.html)
+
 
 How to install
 --------------
 
-1. Download this repository as a zip file
-2. Upload the unzipped files (and folders) on your website
-3. Edit settings.json file
-4. Edit playlist.json file
-5. Open `http://yourwebsite.com/`
+### Personal hosting
+
+1. Download the [last release](https://github.com/Narno/openMixtape/releases)
+2. Upload the unzipped files on the website
+3. Open `http://website.com/openmixtape-directory/`
+
+### Google Drive hosting
+
+1. Download the [last release](https://github.com/Narno/openMixtape/releases)
+2. Create a Google Drive public diectory
+3. Put Unzipped files in this directory
+4. Share the host link
+
+### Dropbox hosting
+
+1. Download the [last release](https://github.com/Narno/openMixtape/releases)
+2. Create a [Static Web Application](https://dl-web.dropbox.com/spa/pjlfdak1tmznswp/powered_by.js/public/index.html)
+3. Put Unzipped files in the ```public``` Dropbox application directory
+4. Share the ```index.html``` file
+
+
+Settings
+--------
+
+* ```settings.json```: title, baseline and background color of the playlist
+* ```playlist.json```: contain each song (artist, song title and the link to the mp3 file) of the playlist
+
 
 Dependencies
 ------------
@@ -26,13 +50,6 @@ Dependencies
 * [Audio5js](https://github.com/zohararad/audio5js): HTML5 Audio Compatibility Layer ([license](https://github.com/zohararad/audio5js#license))
 * [Hogan.js](https://github.com/twitter/hogan.js): Compiler for the Mustache templating language ([license](https://github.com/twitter/hogan.js/blob/master/LICENSE))
 
-To do
-----------
-* [x] Complete the section "How to install"
-* [ ] Explain how to customize settings
-* [ ] Explain how to fill the playlist file
-* [ ] Optimize and stabilize
-* [ ] run tests on different browsers
 
 License
 -----------------------------
