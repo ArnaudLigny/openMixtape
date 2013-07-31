@@ -24,15 +24,15 @@ How to install
 ### Google Drive hosting
 
 1. Download the [last release](https://github.com/Narno/openMixtape/releases)
-2. Create a Google Drive public diectory
-3. Put Unzipped files in this directory
+2. [Create a Google Drive public folder](https://support.google.com/drive/answer/2881970?hl=en)
+3. Put Unzipped files in this forlder
 4. Share the host link
 
 ### Dropbox hosting
 
 1. Download the [last release](https://github.com/Narno/openMixtape/releases)
 2. Create a [Static Web Application](https://dl-web.dropbox.com/spa/pjlfdak1tmznswp/powered_by.js/public/index.html)
-3. Put Unzipped files in the ```public``` Dropbox application directory
+3. Put Unzipped files in the ```public``` Dropbox application folder
 4. Share the ```index.html``` file
 
 
