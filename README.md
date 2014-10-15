@@ -1,9 +1,12 @@
-openMixtape
-===========
-
+<!--
+title = Home
+layout = default
+menu = nav
+content = http://raw.github.com/Narno/openMixtape/master/README.md
+-->
 openMixtape is an electronic [Mixtape](http://en.wikipedia.org/wiki/Mixtape), inspired by [Muxtape](http://en.wikipedia.org/wiki/Muxtape), powered by [Audio5js](https://github.com/zohararad/audio5js).
 
-[![Compact Cassette](http://upload.wikimedia.org/wikipedia/commons/f/f1/Tdkc60cassette.jpg "Compact Cassette")](http://en.wikipedia.org/wiki/File:Tdkc60cassette.jpg)
+![openMixtape screenshot](https://raw.githubusercontent.com/Narno/openMixtape/gh-pages/_phpoole/assets/images/openMixtape.png "openMixtape screenshot")
 
 
 Examples
@@ -56,4 +59,4 @@ License
 
 _openMixtape_ is released under the terms of the [MIT license](http://opensource.org/licenses/MIT).
 
-Copyright (c) 2013 Arnaud Ligny
+Copyright (c) 2014 Arnaud Ligny
