@@ -1,6 +1,8 @@
 /**
  * openMixtape main script
- * Copyright 2013 Arnaud Ligny
+ *
+ * @see http://narno.org/openMixtape
+ * Copyright 2014 Arnaud Ligny
  * http://opensource.org/licenses/MIT
  */
 $(function() {
@@ -39,15 +41,15 @@ $(function() {
     throw_errors: false,
     format_time: false,
     ready: function(player) {
-      /* Load in a track on click */
+      /* Loading a track on click */
       $('ol li').click(function(e) {
         e.preventDefault();
+        audio5.pause();
         if ($(this).hasClass('playing') === false) {
           audio5.on('canplay', function() {
             audio5.play();
           }, this);
           audio5.load($('a', this).attr('data-src'));
-          audio5.pause();
         }
         $(this).addClass('playing').siblings().removeClass('playing');
         audio5.playPause();
@@ -91,16 +93,11 @@ $(function() {
       this.on('ended', function() {
         console.log('ended');
       }, this);
-      /*
-      this.on('timeupdate', function(position, duration) {
-        console.log('timeupdate:' + duration, position);
-      }, this);
       this.on('progress', function(load_percent) {
-        console.log('load:' + load_percent);
+        console.log('load: ' + load_percent + '%');
       }, this);
-      */
       this.on('error', function(error) {
-        console.log('error:' + error.message);
+        console.log('error: ' + error.message);
       }, this);
     }
   });

@@ -2,6 +2,6 @@
   "songs": [
     {"artist": "Dave Howes", "title": "Roméo Alpha", "mp3": "http://archive.org/download/RomeoAlpha/RomeoAlpha.mp3"},
     {"artist": "Dhalius", "title": "Yeah", "mp3": "http://archive.org/download/DhaliusMusicCollection2002-2010/YEAH.mp3"},
-    {"artist": "Duke", "title": "Nukem", "mp3": "duke.mp3"}
+    {"artist": "Duke", "title": "Nukem", "mp3": "songs/duke.mp3"}
   ]
 }
