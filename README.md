@@ -21,7 +21,7 @@ openMixtape is an electronic [Mixtape](http://en.wikipedia.org/wiki/Mixtape), in
 
 ## Dependencies
 
-* [jQuery](https://github.com/jquery/jquery): JavaScript Library ([license](https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt))
+* [jQuery](https://github.com/jquery/jquery): JavaScript Library ([license](https://github.com/jquery/jquery/blob/master/LICENSE.txt))
 * [Audio5js](https://github.com/zohararad/audio5js): HTML5 Audio Compatibility Layer ([license](https://github.com/zohararad/audio5js#license))
 * [Hogan.js](https://github.com/twitter/hogan.js): Compiler for the Mustache templating language ([license](https://github.com/twitter/hogan.js/blob/master/LICENSE))
 
