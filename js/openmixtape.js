@@ -1,7 +1,7 @@
 /**
  * openMixtape main script
  *
- * @see http://narno.org/openMixtape
+ * @see https://github.com/Narno/openMixtape
  * Copyright 2014 Arnaud Ligny
  * http://opensource.org/licenses/MIT
  */
