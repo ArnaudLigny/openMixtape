@@ -1,13 +1,10 @@
 {
   "songs": [
-    {"artist": "Dave Howes", "title": "Roméo Alpha", "mp3": "http://archive.org/download/RomeoAlpha/RomeoAlpha.mp3"},
-    {"artist": "Dhalius", "title": "Yeah", "mp3": "http://archive.org/download/DhaliusMusicCollection2002-2010/YEAH.mp3"},
     {"artist": "Duke", "title": "Nukem", "mp3": "songs/duke.mp3"},
-    {"artist": "Dave Howes", "title": "Roméo Alpha", "mp3": "http://archive.org/download/RomeoAlpha/RomeoAlpha.mp3"},
-    {"artist": "Dhalius", "title": "Yeah", "mp3": "http://archive.org/download/DhaliusMusicCollection2002-2010/YEAH.mp3"},
-    {"artist": "Duke", "title": "Nukem", "mp3": "songs/duke.mp3"},
-    {"artist": "Dave Howes", "title": "Roméo Alpha", "mp3": "http://archive.org/download/RomeoAlpha/RomeoAlpha.mp3"},
-    {"artist": "Dhalius", "title": "Yeah", "mp3": "http://archive.org/download/DhaliusMusicCollection2002-2010/YEAH.mp3"},
-    {"artist": "Duke", "title": "Nukem", "mp3": "songs/duke.mp3"}
+    {"artist": "Dave Howes", "title": "Roméo Alpha", "mp3": "https://archive.org/download/RomeoAlpha/RomeoAlpha.mp3"},
+    {"artist": "Dhalius", "title": "Yeah", "mp3": "https://archive.org/download/DhaliusMusicCollection2002-2010/YEAH.mp3"},
+    {"artist": "Tom Caruana", "title": "Welcome Aboard", "mp3": "https://archive.org/download/Welcome_Aboard-5483/Tom_Caruana_-_07_-_Get_It_Off_Your_Chest.mp3"},
+    {"artist": "Jason Shaw", "title": "Mornings", "mp3": "https://archive.org/download/Audionautix_Acoustic-9870/Jason_Shaw_-_12_MORNINGS.mp3"},
+    {"artist": "Evgeny Grinko", "title": "Winter Sunshine", "mp3": "https://archive.org/download/Winter_Sunshine_EP-8201/Evgeny_Grinko_-_01_-_Winter_Sunshine.mp3"}
   ]
 }
