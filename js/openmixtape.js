@@ -60,7 +60,9 @@ $(function() {
         if (!next.length) next = $('ol li').first();
         next.addClass('playing').siblings().removeClass('playing');
         this.load($('a', next).attr('data-src'));
-        this.play();
+        audio5.on('canplay', function () {
+          audio5.play();
+        }, this);
       }, this);
       /* Loading progress */
       this.on('progress', function(load_percent) {
