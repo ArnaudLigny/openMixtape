@@ -99,6 +99,46 @@ $(function() {
       this.on('error', function(error) {
         console.log('error: ' + error.message);
       }, this);
+      /* Keyboard */
+      $(document).on('keypress', function (e) {
+        console.log('key: ' + e.which);
+        // Spacebar: Play/pause
+        if (e.which == 32) {
+          var current = $('ol li.playing');
+          if (!current.length) {
+            current = $('ol li').first();
+            current.addClass('playing')
+            audio5.load($('a', current).attr('data-src'));
+            audio5.on('canplay', function () {
+              audio5.play();
+            }, this);
+          } else {
+            audio5.playPause();
+          }
+        }
+        // j: previous
+        if (e.which == 106) {
+          audio5.pause();
+          var prev = $('ol li.playing').prev();
+          if (!prev.length) prev = $('ol li').first();
+          prev.addClass('playing').siblings().removeClass('playing');
+          audio5.load($('a', prev).attr('data-src'));
+          audio5.on('canplay', function () {
+            audio5.play();
+          }, this);
+        }
+        // k: next
+        if (e.which == 107) {
+          audio5.pause();
+          var next = $('ol li.playing').next();
+          if (!next.length) next = $('ol li').first();
+          next.addClass('playing').siblings().removeClass('playing');
+          audio5.load($('a', next).attr('data-src'));
+          audio5.on('canplay', function () {
+            audio5.play();
+          }, this);
+        }
+      });
     }
   });
 });
