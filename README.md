@@ -8,6 +8,8 @@ openMixtape is an electronic [Mixtape](http://en.wikipedia.org/wiki/Mixtape), in
 
 [narno.dev/openMixtape](https://narno.dev/openMixtape/)
 
+> You cas use the keyboard to play/pause (`spacebar`), go the next (`k`) or previous (`j`) title.
+
 ## Install
 
 1. Download the [last release](https://github.com/Narno/openMixtape/releases)
