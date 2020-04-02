@@ -70,12 +70,6 @@
         // when template (full DOM) is loaded, load openmixtape script
         ).done(function(){
           $.getScript('js/openmixtape.js');
-          $(document).on('keypress', function (e) {
-            console.log('key: '+e.which);
-            if (e.which == 32) {
-              audio5.playPause();
-            }
-          });
         });
       });
     </script>
