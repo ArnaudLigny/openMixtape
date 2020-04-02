@@ -17,7 +17,7 @@ openMixtape is an electronic [Mixtape](http://en.wikipedia.org/wiki/Mixtape), in
 ## Settings
 
 * `settings.json`: title, baseline and background color of the playlist
-* `playlist.json`: contain each song (artist, song title and the link to the mp3 file) of the playlist
+* `playlist.json`: contain each song (artist, song title and the link to the audio file) of the playlist
 
 ## Dependencies
 
