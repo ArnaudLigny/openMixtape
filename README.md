@@ -6,7 +6,7 @@ openMixtape is an electronic [Mixtape](http://en.wikipedia.org/wiki/Mixtape), in
 
 ## Demo
 
-[narno.dev/openMixtape](https://narno.dev/openMixtape/)
+[dev.ligny.org/openMixtape/](https://dev.ligny.org/openMixtape/)
 
 > You can use the keyboard to play/pause (`spacebar`) and go the next (`k`) or previous (`j`) title.
 
