@@ -12,9 +12,9 @@ openMixtape is an electronic [Mixtape](http://en.wikipedia.org/wiki/Mixtape), in
 
 ## Install
 
-1. Download the [last release](https://github.com/Narno/openMixtape/releases)
+1. Download the [last release](https://github.com/ArnaudLigny/openMixtape/releases)
 2. Upload the unzipped files on the website
-3. Open `http://website.com/openmixtape-directory/`
+3. Open `https://website.com/openmixtape-directory/`
 
 ## Settings
 
